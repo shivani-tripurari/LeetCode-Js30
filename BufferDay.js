@@ -25,11 +25,22 @@ const arr3 = [...arr1, ...arr2 , "Let's go"];
 console.log(arr3);
 
 //passing elements of an array as arguments of a function
-function spreadOperator(...args){
+function spreadOperator(x,y,z){
     console.log("This is the spread operator")
     console.log(...args);
+    console.log(x+y+z);
 }
 var args = [1,2,3];
 const output = spreadOperator(...args); //whatever elements be in the args array, the spread operator will take all of them
 console.log(output);
 
+
+//Rest operator(...) opposite of spread operato
+function restOperator(one, ...param){
+    console.log("The rest operator combines all the elemnts into a single array");
+    return param.map(function(element){ 
+    console.log(one*element)}
+    );   
+}
+var answer = restOperator(5,2,3,4);
+console.log(answer);
