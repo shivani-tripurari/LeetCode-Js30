@@ -2,7 +2,7 @@
 **Practicing the 30 days JavaScript LeetCode challenge**
 
 > [!TIP]
-> Helpful advice for doing things better or more easily.
+> Open the browser --> right click --> Inspect --> Sources --> Snippets --> Copy and run the code.
 
 **Day-1** : Hello world of JavaScript 
 
