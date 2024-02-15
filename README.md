@@ -5,7 +5,7 @@
 
 Day-1 : Hello world of JavaScript 
 
-Buffer Day : Hoisting, Shift operator
+Buffer Day : Hoisting, Spread operator, Rest operator
 
 Day-2 : Counter function(Lexical environment, Closure)
 

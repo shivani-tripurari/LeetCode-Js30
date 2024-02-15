@@ -17,6 +17,7 @@ console.log(x);        //x is assigned the value after memory allocation and exe
 getName();             //getName is called and the output is printed as another execution context is created whenever a function is called
 console.log(getName);  //the function code block is printed
 
+//Shift operator (...)
 
 
 
