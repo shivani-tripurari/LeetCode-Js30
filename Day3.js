@@ -27,3 +27,26 @@ var expect = function(value){
     return obj;
 }
 
+//Approach 2 (ternary operator)
+var expect = function(value){
+    var obj = {
+        toBe: function(expectedVal){
+            /*if(expectedVal === value){
+                return true;
+            }
+            else{
+                throw new Error("Not Equal");
+            }*/
+            //(expectedVal===value)?true:throw new Error ("Not Equal");
+        },
+        notToBe: function(expectedVal){
+            if(expectedVal !== value){
+                return true;
+            }
+            else{
+                throw new Error("Equal");
+            }
+        }
+    }
+    return obj;
+}
