@@ -18,10 +18,10 @@ getName();             //getName is called and the output is printed as another 
 console.log(getName);  //the function code block is printed
 
 //Shift operator (...)
-//Concatinating arrays
+//Concatinating arrays and adding elements
 const arr1 = ["hello", "js", "interesting"];
 const arr2 = ["ikr", "frontend"]
-const arr3 = [...arr1, ...arr2];
+const arr3 = [...arr1, ...arr2 , "Let's go"];
 console.log(arr3);
 
 //passing elements of an array as arguments of a function
