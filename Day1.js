@@ -2,7 +2,7 @@
 //It should return a new function that always returns "Hello World".
 
 const createHelloWorld = function(){ //anonymous function - withiout keyword "function"
-    function another(...args){
+    function another(...args){       //here, args is a variable and we dont need to declare it becaue in js, "..." operator automatically initializes it as an empty array
         return "Hello World";
     }
     return another();

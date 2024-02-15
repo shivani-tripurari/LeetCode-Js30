@@ -18,6 +18,18 @@ getName();             //getName is called and the output is printed as another 
 console.log(getName);  //the function code block is printed
 
 //Shift operator (...)
+//Concatinating arrays
+const arr1 = ["hello", "js", "interesting"];
+const arr2 = ["ikr", "frontend"]
+const arr3 = [...arr1, ...arr2];
+console.log(arr3);
 
-
+//passing elements of an array as arguments of a function
+function spreadOperator(...args){
+    console.log("This is the spread operator")
+    console.log(...args);
+}
+var args = [1,2,3];
+const output = spreadOperator(...args); //whatever elements be in the args array, the spread operator will take all of them
+console.log(output);
 
