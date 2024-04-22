@@ -28,6 +28,8 @@ var expect = function(value){
 }
 
 //Approach 2 (ternary operator)
+// in ternary approach, we can't use "throw" keyword directly
+// the below code will display an error
 var expect = function(value){
     var obj = {
         toBe: function(expectedVal){
